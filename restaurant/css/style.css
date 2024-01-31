@@ -1,0 +1,157 @@
+html{
+    scroll-behavior: smooth !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.getStarted{
+    height: 100% !important;
+    width: 100% !important;
+    
+}
+.getStarted .navbar{
+    z-index: 10000 !important;
+    text-size-adjust: 20px;
+}
+.getStarted .bgimg{
+    height: 700px;
+    width: 100%;
+    background-image: url("../imgs/first.jpg");
+}
+
+.getStarted .bgimg nav{
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.getStarted .bgimg nav .search button:hover{
+    background-color: blue !important;
+}
+
+.getStarted .bgimg nav a{
+    color: black !important;
+    margin: 0px 10px !important;
+}
+
+.getStarted h1{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+.getStarted a{
+    border-radius: 50% !important;
+}
+
+.getStarted h1 span{
+    padding-top: 10px !important;
+}
+button{
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 20px;
+    border: none;
+    background: var(--sky);
+    color: #fff;
+}
+
+/* Posts */
+
+.posts .img{
+    position: relative;
+    left: 45%;
+}
+
+.posts .img img{
+    height: 250px !important;
+    width: 70% !important;
+}
+
+.posts .img h2{
+    color: rgb(126, 115, 115);
+    padding: 10px 0 0 0 !important;
+}
+
+.posts .img a , .posts .img p{
+    color: gray;
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(244, 148, 88);
+    padding: 20px 30px;
+}
+.footer i{
+    color: #fff;
+    padding: 0 20px 20px 0;
+}
+.footer h4 a{
+    color: black !important;
+}
+.footer h4{
+    padding-bottom: 20px !important;
+}
+.footer a{
+    color: white !important;
+}
+.footer .hello{
+    background-color: rgb(88, 87, 87) !important;
+    padding: 15px;
+    width: 130px;
+}
+.footer .rest-name{
+    padding: 20px 0px !important;
+    color: rgb(81, 67, 67) !important;
+}
+.footer .rest-name i{
+    padding-right: 5px !important;
+    color: rgb(81, 67, 67) !important;
+}
+.footer .copyRight{
+    color: black;
+}
+.footer .email-form{
+    border: solid 2px white !important;
+    margin: 15px 0 !important;
+    padding: 10px 0 10px 20px !important;
+}
+.footer .email-form input{
+    width: 70% !important;
+}
+
+/* My Button to go top */
+#mybtn
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    border: none;
+    color: white;
+    background-color: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+}
+#mybtn:hover
+{
+    background-color: #606060;
+    cursor: pointer;
+}
+
+@media(max-width:768px){
+    .posts .img{
+        left: 5%;
+        
+    }
+    #mybtn
+    {
+        bottom: 10px;
+        right: 20px;
+    }
+}
+@media(max-width: 576px)
+{
+    .getStarted h1{
+        left: 15%;
+    }
+}

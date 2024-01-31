@@ -1,0 +1,98 @@
+<footer class="footer" id="footer">
+    <div class="row">
+
+      <div class="col-md-6">
+        <div class="icons">
+          <a href="#footer"> <i class="fa-brands fa-twitter"></i> </a>
+          <a href="#footer"> <i class="fa-brands fa-facebook"></i> </a>
+          <a href="#footer"> <i class="fa-brands fa-instagram"></i> </a>
+        </div>
+        <div class="hello">
+          <a class="button text-uppercase">
+            <b>Say Hello!</b>
+          </a>
+        </div>
+
+        <div class="rest-name">
+          <p class="p">
+            <i class="fa-solid fa-wifi"></i>Rest Name
+          </p>
+
+          <p class="copyRight">
+            @April 2022
+          </p>
+        </div>
+
+        <div class="details">
+          Want to be informed about happenings in the Rest? Sign up for the monthly newsletter here! Namaste.
+        </div>
+
+        <div class="email-form">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email Id</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <h4>
+          <a href="#footer">Recipe 1</a><br>
+        </h4>
+        <h4>
+          <a href="#footer">Recipe 2</a><br>
+        </h4>
+        <h4>
+          <a href="#footer">Recipe 3</a><br>
+        </h4>
+      </div>
+
+      <div class="scrolltop float-right">
+        <i class="fa fa-arrow-up" onclick="topFunction()" id="mybtn"></i>
+      </div>
+
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+
+    mybutton = document.getElementById("mybtn");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction()
+    {
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+        {
+            mybutton.style.display = "block" ;
+        }
+        else
+        {
+            mybutton.style.display = "none" ;
+        }
+    }
+
+    function topFunction()
+    {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    $(document).ready(function(){
+
+        $(".nav-link").click(function(){
+            $(".navbar-toggler").click();
+        });
+
+    });
+
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
+
+
+  </script>
